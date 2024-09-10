@@ -1,0 +1,19 @@
+{
+  "name": "half_web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+ "scripts": {
+  "build-css": "tailwindcss build public/css/styles.css -o public/css/output.css"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "ejs": "^3.1.10",
+    "express": "^4.20.0",
+    "postcss": "^8.4.45",
+    "tailwindcss": "^3.4.10"
+  }
+}
